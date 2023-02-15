@@ -6,6 +6,7 @@ import org.testng.asserts.SoftAssert;
 
 public class CommonMethod {
 	
+	//same curret mistakes
 	
 	public static void selectdropdown(WebElement element, int index)
 	{

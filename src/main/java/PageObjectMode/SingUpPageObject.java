@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 	public class SingUpPageObject
 	{
+		//same curret mistakes
 		public WebDriver driver;
 		
 		private By Firstname=By.xpath("//input[@name='UserFirstName']");
@@ -20,6 +21,7 @@ import org.openqa.selenium.WebElement;
 		
 		
 	//some changes
+		//same curret mistakes
 		
 		
 		public SingUpPageObject(WebDriver driver2)

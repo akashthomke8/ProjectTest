@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 public class LoginPageObject 
 {
 	//some changes
-	
+	//same curret mistakes
 	
 	public WebDriver driver;
 	
