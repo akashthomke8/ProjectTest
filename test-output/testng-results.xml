@@ -1,17 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-14T06:53:59 IST" name="Default suite" finished-at="2023-02-14T06:54:24 IST" duration-ms="24732">
+  <suite started-at="2023-02-14T13:41:12 IST" name="Suite" finished-at="2023-02-14T13:41:49 IST" duration-ms="36779">
     <groups>
     </groups>
-    <test started-at="2023-02-14T06:53:59 IST" name="Default test" finished-at="2023-02-14T06:54:24 IST" duration-ms="24732">
-      <class name="TestCases.verifySingUpPage">
-        <test-method is-config="true" signature="openurl()[pri:0, instance:TestCases.verifySingUpPage@41fbdac4]" started-at="2023-02-14T06:53:59 IST" name="openurl" finished-at="2023-02-14T06:54:06 IST" duration-ms="7159" status="PASS">
+    <test started-at="2023-02-14T13:41:12 IST" name="Test" finished-at="2023-02-14T13:41:49 IST" duration-ms="36779">
+      <class name="TestCases.VerfiyLoginPage">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:TestCases.VerfiyLoginPage@6a192cfe]" started-at="2023-02-14T13:41:12 IST" name="openurl" finished-at="2023-02-14T13:41:19 IST" duration-ms="6711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openurl -->
-        <test-method signature="singup()[pri:0, instance:TestCases.verifySingUpPage@41fbdac4]" started-at="2023-02-14T06:54:06 IST" name="singup" finished-at="2023-02-14T06:54:23 IST" duration-ms="16984" status="FAIL">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCases.VerfiyLoginPage@6a192cfe]" started-at="2023-02-14T13:41:19 IST" name="login" data-provider="testData" finished-at="2023-02-14T13:41:19 IST" duration-ms="702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.VerfiyLoginPage@6a192cfe]" started-at="2023-02-14T13:41:19 IST" name="close" finished-at="2023-02-14T13:41:20 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:TestCases.VerfiyLoginPage@6a192cfe]" started-at="2023-02-14T13:41:20 IST" name="openurl" finished-at="2023-02-14T13:41:24 IST" duration-ms="3862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCases.VerfiyLoginPage@6a192cfe]" started-at="2023-02-14T13:41:24 IST" name="login" data-provider="testData" finished-at="2023-02-14T13:41:24 IST" duration-ms="695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nikhil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secure@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.VerfiyLoginPage@6a192cfe]" started-at="2023-02-14T13:41:24 IST" name="close" finished-at="2023-02-14T13:41:25 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:TestCases.VerfiyLoginPage@6a192cfe]" started-at="2023-02-14T13:41:25 IST" name="openurl" finished-at="2023-02-14T13:41:30 IST" duration-ms="4622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCases.VerfiyLoginPage@6a192cfe]" started-at="2023-02-14T13:41:30 IST" name="login" data-provider="testData" finished-at="2023-02-14T13:41:31 IST" duration-ms="699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shantanu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[clear@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.VerfiyLoginPage@6a192cfe]" started-at="2023-02-14T13:41:31 IST" name="close" finished-at="2023-02-14T13:41:31 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCases.VerfiyLoginPage -->
+      <class name="TestCases.verifySingUpPage">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:TestCases.verifySingUpPage@6356695f]" started-at="2023-02-14T13:41:31 IST" name="openurl" finished-at="2023-02-14T13:41:36 IST" duration-ms="4511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="singup()[pri:0, instance:TestCases.verifySingUpPage@6356695f]" started-at="2023-02-14T13:41:36 IST" name="singup" finished-at="2023-02-14T13:41:48 IST" duration-ms="12110" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='CompanyEmployees-6q2t']"}
@@ -20,9 +94,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f76db29ba95bc0b26d66e360c84416cb, findElement {using=xpath, value=//select[@id='CompanyEmployees-6q2t']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Akash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51053}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51053/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f76db29ba95bc0b26d66e360c84416cb]]>
+Command: [ebb1a45507df3b0fda045e1d6ebbe322, findElement {using=xpath, value=//select[@id='CompanyEmployees-6q2t']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Akash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54384}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54384/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ebb1a45507df3b0fda045e1d6ebbe322]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='CompanyEmployees-6q2t']"}
@@ -31,9 +105,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f76db29ba95bc0b26d66e360c84416cb, findElement {using=xpath, value=//select[@id='CompanyEmployees-6q2t']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Akash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51053}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51053/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f76db29ba95bc0b26d66e360c84416cb
+Command: [ebb1a45507df3b0fda045e1d6ebbe322, findElement {using=xpath, value=//select[@id='CompanyEmployees-6q2t']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Akash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54384}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54384/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ebb1a45507df3b0fda045e1d6ebbe322
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -86,11 +160,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singup -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.verifySingUpPage@41fbdac4]" started-at="2023-02-14T06:54:23 IST" name="close" finished-at="2023-02-14T06:54:24 IST" duration-ms="532" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.verifySingUpPage@6356695f]" started-at="2023-02-14T13:41:48 IST" name="close" finished-at="2023-02-14T13:41:49 IST" duration-ms="1091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestCases.verifySingUpPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

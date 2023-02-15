@@ -19,7 +19,7 @@ import org.openqa.selenium.WebElement;
 		private By tuktuk=By.xpath("//div[@class='checkbox-ui']");
 		
 		
-	
+	//some changes
 		
 		
 		public SingUpPageObject(WebDriver driver2)

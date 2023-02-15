@@ -15,6 +15,7 @@ public class verifySingUpPage extends BaseClass
 	@Test
 	public void singup() throws IOException, InterruptedException
 	{
+		//some changes
 		
 		Thread.sleep(4000);
 		LoginPageObject obj=new LoginPageObject(driver);

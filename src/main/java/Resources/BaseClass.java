@@ -15,6 +15,8 @@ public class BaseClass {
 	public WebDriver driver;
 	public Properties prop;
 	
+	//some changes
+	
 	public void driverInitilize() throws IOException
 	{
 		//This will Read Properties File
